@@ -2,6 +2,25 @@
   color: white;
 }
 
+#todo-form input {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#todo-form input::placeholder {
+  color: white;
+}
+
 #todo-list li {
   color: white;
+}
+
+#todo-list li span {
+  margin-right: 10px;
 }
